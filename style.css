@@ -1,0 +1,1124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'poppins', sans-serif;
+}
+
+header{
+    width: 100vw;
+    height: 16vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 4px rgb(170, 169, 169);
+    position: fixed;
+    z-index: 1;
+}
+
+/* For HEAD DIV */
+
+#head{
+    width: 100%;
+    height: 26%;
+    background-color: rgb(235, 235, 235,0.7);
+    display: flex;
+}
+.email{
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+}
+.email a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+}
+.email a i{
+    font-size: 14px;
+    margin-top: 2.2px; 
+}
+.email a p{
+    font-family: 'poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 600; 
+    margin-top: 2.5px; 
+}
+
+.number{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.number a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+}
+.number a i{
+    font-size: 11px;
+}
+.number a p{
+    font-family: 'poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+/* For NAV */
+
+nav{
+    width: 83%;
+    height: 74%;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.saylani-logo{
+    width: 200px;
+    height: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.saylani-logo img{
+    width: 200px;
+    height: 55px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+ul li{
+    margin: 0 12px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(60, 60, 60);
+    font-weight: 500;
+}
+
+.butn-donate{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.donate-now-btn{
+    background-color: rgb(13, 109, 183);
+    color: white;
+    padding: 10px 30px;
+    font-size: 12px;
+    font-family: 'poppins', sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transform: scale(1);
+    transition: 0.2s;
+    text-decoration: none;
+}
+.donate-now-btn:hover{
+    transform: scale(1.1);
+}
+
+/* For Navigations */
+
+.navigation{
+    display: flex;
+}
+
+/* For Home */
+
+.home{
+    position: relative;
+    top: -0.1px;
+}
+.home a{
+    color: rgb(0, 102, 179);
+}
+.home a:hover{
+    border-bottom: 3px solid rgb(153, 202, 60);
+}
+
+
+/* For About Options */
+
+.dropdown-about {
+    position: relative;
+    top: 3px;
+    height: 30px;
+}
+.drop-btn-about:hover{
+    border-bottom: 3px solid rgb(153, 202, 60);
+}
+
+.dropdown-content-about {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    width: 230px;
+    box-shadow: 2px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 0px -21px;
+    padding: 8px 0px;
+    border-radius: 5px;
+    translate: 0px 5px;
+}
+.dropdown-content-about li{
+    width: 100%;
+    position: relative;
+    left: -12px;
+}
+.dropdown-content-about li a {
+    color: rgb(60, 60, 60);
+    padding: 6px 23px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+}
+.dropdown-content-about li a:hover {
+    background-color: rgb(153, 202, 60);
+    color: white;
+}
+.dropdown-content-about li a:active{
+    background-color: rgb(0, 102, 179);
+}
+
+.dropdown-about:hover .dropdown-content-about {
+    display: block;
+}
+
+.dropdown-about:hover .dropbtn-about {
+    background-color: #3e8e41;
+}
+
+/* For Services Options */
+
+.dropdown-services {
+    position: relative;
+    width: 65px;
+    height: 30px;
+    top: 3px;
+}
+.drop-btn-services:hover{
+    border-bottom: 3px solid rgb(153, 202, 60);
+}
+.dropdown-content-services {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    width: 175px;
+    box-shadow: 2px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 0px -21px;
+    padding: 8px 0px;
+    border-radius: 5px;
+    translate: 0px 6px;
+}
+.dropdown-content-services li{
+    width: 100%;
+    position: relative;
+    left: -12px;
+}
+.dropdown-content-services li a {
+    color: rgb(60, 60, 60);
+    padding: 6px 18px 6px 23px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    float: left;
+}
+.dropdown-content-services li a span{
+    font-size: 14px;
+    text-transform: uppercase;
+    float: right;
+}
+.dropdown-content-services li a:hover {
+    background-color: rgb(230, 230, 230);
+    color: rgb(60, 60, 60);
+}
+.dropdown-content-services li a:active{
+    background-color: rgb(0, 102, 179);
+    color: white;
+}
+.dropdown-services:hover .dropdown-content-services {
+    display: block;
+}
+
+/* For Health Catagory Of SERVICES */
+
+.dropdown-health {
+    position: relative;
+}
+.dropdown-content-health {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 280px;
+    width: 270px;
+    box-shadow: 2px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 0px -21px;
+    padding: 8px 0px;
+    border-radius: 5px;
+    translate: 196px -2px;
+}
+.dropdown-content-health li{
+    width: 100%;
+    position: relative;
+    left: -12px;
+}
+
+.dropdown-content-health li a {
+    color: rgb(60, 60, 60);
+    padding: 6px 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+}
+.dropdown-content-health li a:hover {
+    background-color: rgb(153, 202, 60);
+    color: white;
+}
+.dropdown-content-health li a:active{
+    background-color: rgb(0, 102, 179);
+}
+.dropdown-health:hover .dropdown-content-health {
+    display: block;
+}
+
+/* For Education Catagory Of SERVICES */
+
+.dropdown-education {
+    position: relative;
+}
+.dropdown-content-education {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    width: 240px;
+    box-shadow: 2px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 0px -21px;
+    padding: 8px 0px;
+    border-radius: 5px;
+    translate: 196px 30px;
+}
+.dropdown-content-education li{
+    width: 100%;
+    position: relative;
+    left: -12px;
+}
+
+.dropdown-content-education li a {
+    color: rgb(60, 60, 60);
+    padding: 6px 18px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    float: left;
+}
+.dropdown-content-education li a span{
+    font-size: 14px;
+    float: right;
+}
+.dropdown-content-education  li:first-child a:hover {
+    background-color: rgb(153, 202, 60);
+    color: white;
+}
+.dropdown-content-education  li:first-child a:active {
+    background-color: rgb(0, 102, 179);
+}
+.dropdown-content-education li a:hover  {
+    background-color: rgb(230, 230, 230);
+    color: rgb(60, 60, 60);
+}
+.dropdown-content-education li a:active{
+    background-color: rgb(0, 102, 179);
+    color: white;
+}
+.dropdown-education:hover .dropdown-content-education {
+    display: block;
+}
+
+/* For Vocational Training Catagory Of Education in SERVICES */
+
+.dropdown-training {
+    position: relative;
+}
+.dropdown-content-training {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    width: 250px;
+    box-shadow: 2px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 0px -21px;
+    padding: 8px 0px;
+    border-radius: 5px;
+    translate: 260px 30px;
+}
+.dropdown-content-training li{
+    width: 100%;
+    position: relative;
+    left: -12px;
+}
+
+.dropdown-content-training li a {
+    color: rgb(60, 60, 60);
+    padding: 6px 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+}
+.dropdown-content-training li a:hover {
+    background-color: rgb(153, 202, 60);
+    color: white;
+}
+.dropdown-content-training li a:active{
+    background-color: rgb(0, 102, 179);
+}
+.dropdown-training:hover .dropdown-content-training {
+    display: block;
+}
+
+/* For Technical Education Catagory Of Education in SERVICES */
+
+.dropdown-technical {
+    position: relative;
+}
+.dropdown-content-technical {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    width: 250px;
+    box-shadow: 2px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 0px -21px;
+    padding: 8px 0px;
+    border-radius: 5px;
+    translate: 260px 62px;
+}
+.dropdown-content-technical li{
+    width: 100%;
+    position: relative;
+    left: -12px;
+}
+
+.dropdown-content-technical li a {
+    color: rgb(60, 60, 60);
+    padding: 6px 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+}
+.dropdown-content-technical li a:hover {
+    background-color: rgb(153, 202, 60);
+    color: white;
+}
+.dropdown-content-technical li a:active{
+    background-color: rgb(0, 102, 179);
+}
+.dropdown-technical:hover .dropdown-content-technical {
+    display: block;
+}
+
+/* For Islamic Education Catagory Of Education in SERVICES */
+
+.dropdown-islamic {
+    position: relative;
+}
+.dropdown-content-islamic {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    width: 250px;
+    box-shadow: 2px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 0px -21px;
+    padding: 8px 0px;
+    border-radius: 5px;
+    translate: 260px 95px;
+}
+.dropdown-content-islamic li{
+    width: 100%;
+    position: relative;
+    left: -12px;
+}
+
+.dropdown-content-islamic li a {
+    color: rgb(60, 60, 60);
+    padding: 6px 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+}
+.dropdown-content-islamic li a:hover {
+    background-color: rgb(153, 202, 60);
+    color: white;
+}
+.dropdown-content-islamic li a:active{
+    background-color: rgb(0, 102, 179);
+}
+.dropdown-islamic:hover .dropdown-content-islamic {
+    display: block;
+}
+
+/* For Accounting and Finance Catagory Of Education in SERVICES */
+
+.dropdown-accounting {
+    position: relative;
+}
+.dropdown-content-accounting {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    width: 250px;
+    box-shadow: 2px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 0px -21px;
+    padding: 8px 0px;
+    border-radius: 5px;
+    translate: 260px 130px;
+}
+.dropdown-content-accounting li{
+    width: 100%;
+    position: relative;
+    left: -12px;
+}
+
+.dropdown-content-accounting li a {
+    color: rgb(60, 60, 60);
+    padding: 6px 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+}
+.dropdown-content-accounting li a:hover {
+    background-color: rgb(153, 202, 60);
+    color: white;
+}
+.dropdown-content-accounting li a:active{
+    background-color: rgb(0, 102, 179);
+}
+.dropdown-accounting:hover .dropdown-content-accounting {
+    display: block;
+}
+
+/* End of Education Catagory of SERVICES*/
+
+
+/* For Food Catagory Of SERVICES */
+
+.dropdown-food {
+    position: relative;
+}
+.dropdown-content-food {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    width: 215px;
+    box-shadow: 2px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 0px -21px;
+    padding: 8px 0px;
+    border-radius: 5px;
+    translate: 196px 63px;
+}
+.dropdown-content-food li{
+    width: 100%;
+    position: relative;
+    left: -12px;
+}
+
+.dropdown-content-food li a {
+    color: rgb(59, 59, 59);
+    padding: 6px 18px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    float: left;
+}
+.dropdown-content-food li a span{
+    font-size: 14px;
+    float: right;
+}
+.dropdown-content-food li a:hover  {
+    background-color: rgb(153, 202, 60);
+    color: white;
+}
+.dropdown-content-food li a:active{
+    background-color: rgb(0, 102, 179);
+    color: white;
+}
+.dropdown-food:hover .dropdown-content-food {
+    display: block;
+}
+
+/* For Sadiqah Jariah Catagory Of SERVICES */
+
+.dropdown-sadiqah {
+    position: relative;
+}
+.dropdown-content-sadiqah {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    width: 232px;
+    box-shadow: 2px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 0px -21px;
+    padding: 8px 0px;
+    border-radius: 5px;
+    translate: 196px 96px;
+}
+.dropdown-content-sadiqah li{
+    width: 100%;
+    position: relative;
+    left: -12px;
+}
+
+.dropdown-content-sadiqah li a {
+    color: rgb(59, 59, 59);
+    padding: 6px 18px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    float: left;
+}
+.dropdown-content-sadiqah li a span{
+    font-size: 14px;
+    float: right;
+}
+.dropdown-content-sadiqah li a:hover  {
+    background-color: rgb(153, 202, 60);
+    color: white;
+}
+.dropdown-content-sadiqah li a:active{
+    background-color: rgb(0, 102, 179);
+    color: white;
+}
+.dropdown-sadiqah:hover .dropdown-content-sadiqah {
+    display: block;
+}
+
+/* For Social Welfare Catagory Of SERVICES */
+
+.dropdown-welfare {
+    position: relative;
+}
+.dropdown-content-welfare {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    width: 225px;
+    box-shadow: 2px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 0px -21px;
+    padding: 8px 0px;
+    border-radius: 5px;
+    translate: 196px 129px;
+}
+.dropdown-content-welfare li{
+    width: 100%;
+    position: relative;
+    left: -12px;
+}
+
+.dropdown-content-welfare li a {
+    color: rgb(59, 59, 59);
+    padding: 6px 18px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    float: left;
+}
+.dropdown-content-welfare li a span{
+    font-size: 14px;
+    float: right;
+}
+.dropdown-content-welfare li a:hover  {
+    background-color: rgb(153, 202, 60);
+    color: white;
+}
+.dropdown-content-welfare li a:active{
+    background-color: rgb(0, 102, 179);
+    color: white;
+}
+.dropdown-welfare:hover .dropdown-content-welfare {
+    display: block;
+}
+
+/* For Disaster Aid Catagory Of SERVICES */
+
+.dropdown-disaster {
+    position: relative;
+}
+.dropdown-content-disaster {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    width: 272px;
+    box-shadow: 2px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 0px -21px;
+    padding: 8px 0px;
+    border-radius: 5px;
+    translate: 196px 162px;
+}
+.dropdown-content-disaster li{
+    width: 100%;
+    position: relative;
+    left: -12px;
+}
+
+.dropdown-content-disaster li a {
+    color: rgb(59, 59, 59);
+    padding: 6px 18px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    float: left;
+}
+.dropdown-content-disaster li a span{
+    font-size: 14px;
+    float: right;
+}
+.dropdown-content-disaster li a:hover  {
+    background-color: rgb(153, 202, 60);
+    color: white;
+}
+.dropdown-content-disaster li a:active{
+    background-color: rgb(0, 102, 179);
+    color: white;
+}
+.dropdown-disaster:hover .dropdown-content-disaster {
+    display: block;
+}
+
+/* For Saylani Ehsaas Catagory Of SERVICES */
+
+.dropdown-ehsaas {
+    position: relative;
+}
+.dropdown-content-ehsaas {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    width: 272px;
+    box-shadow: 2px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 0px -21px;
+    padding: 8px 0px;
+    border-radius: 5px;
+    translate: 196px 196px;
+}
+.dropdown-content-ehsaas li{
+    width: 100%;
+    position: relative;
+    left: -12px;
+}
+
+.dropdown-content-ehsaas li a {
+    color: rgb(59, 59, 59);
+    padding: 6px 18px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    float: left;
+}
+.dropdown-content-ehsaas li a span{
+    font-size: 14px;
+    float: right;
+}
+.dropdown-content-ehsaas li a:hover  {
+    background-color: rgb(153, 202, 60);
+    color: white;
+}
+.dropdown-content-ehsaas li a:active{
+    background-color: rgb(0, 102, 179);
+    color: white;
+}
+.dropdown-ehsaas:hover .dropdown-content-ehsaas {
+    display: block;
+}
+
+/* End of SERVICES Options */
+
+
+/* For Media Options */
+
+.dropdown-media {
+    position: relative;
+    top: 3px;
+    height: 30px;
+}
+.drop-btn-media:hover{
+    border-bottom: 3px solid rgb(153, 202, 60);
+}
+
+.dropdown-content-media {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    width: 150px;
+    box-shadow: 2px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 0px -21px;
+    padding: 8px 0px;
+    border-radius: 5px;
+    translate: 0px 5px;
+}
+.dropdown-content-media li{
+    width: 100%;
+    position: relative;
+    left: -12px;
+}
+.dropdown-content-media li a {
+    color: rgb(60, 60, 60);
+    padding: 6px 23px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+}
+.dropdown-content-media li a:hover {
+    background-color: rgb(153, 202, 60);
+    color: white;
+}
+.dropdown-content-media li a:active{
+    background-color: rgb(0, 102, 179);
+}
+
+.dropdown-media:hover .dropdown-content-media {
+    display: block;
+}
+
+.dropdown-media:hover .dropbtn-media {
+    background-color: #3e8e41;
+}
+
+/* For News */
+
+.news{
+    position: relative;
+    top: -0.1px;
+}
+.news a{
+    color: rgb(60, 60, 60);
+}
+.news a:hover{
+    border-bottom: 3px solid rgb(153, 202, 60);
+}
+
+/* For Contact US Options */
+
+.dropdown-contact {
+    position: relative;
+    top: 3px;
+    height: 30px;
+}
+.drop-btn-contact:hover{
+    border-bottom: 3px solid rgb(153, 202, 60);
+}
+
+.dropdown-content-contact {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    width: 150px;
+    box-shadow: 2px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 0px -21px;
+    padding: 8px 0px;
+    border-radius: 5px;
+    translate: 0px 5px;
+}
+.dropdown-content-contact li{
+    width: 100%;
+    position: relative;
+    left: -12px;
+}
+.dropdown-content-contact li a {
+    color: rgb(60, 60, 60);
+    padding: 6px 23px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+}
+.dropdown-content-contact li a:hover {
+    background-color: rgb(153, 202, 60);
+    color: white;
+}
+.dropdown-content-contact li a:active{
+    background-color: rgb(0, 102, 179);
+}
+
+.dropdown-contact:hover .dropdown-content-contact {
+    display: block;
+}
+
+.dropdown-contact:hover .dropbtn-contact {
+    background-color: #3e8e41;
+}
+
+/* For Bank Details */
+
+.bank{
+    position: relative;
+    top: -0.1px;
+}
+.bank a{
+    color: rgb(60, 60, 60);
+}
+.bank a:hover{
+    border-bottom: 3px solid rgb(153, 202, 60);
+}
+
+/* For Overseas Donors Options */
+
+.dropdown-donors {
+    position: relative;
+    top: 3px;
+    height: 30px;
+}
+.drop-btn-donors{
+    animation: color 400ms linear 0s infinite alternate-reverse forwards;
+}
+@keyframes color {
+    from{
+        color: rgb(0, 102, 179);
+    }
+    to{
+        color: rgb(153, 202, 60);
+    }
+    
+}
+.drop-btn-donors:hover{
+    border-bottom: 3px solid rgb(153, 202, 60);
+}
+
+.dropdown-content-donors {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    width: 180px;
+    box-shadow: 2px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 0px -21px;
+    padding: 8px 0px;
+    border-radius: 5px;
+    translate: 0px 5px;
+}
+.dropdown-content-donors li{
+    width: 100%;
+    position: relative;
+    left: -12px;
+}
+.dropdown-content-donors li a {
+    color: rgb(60, 60, 60);
+    padding: 6px 23px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+}
+@keyframes color {
+    from{
+        color: rgb(153, 202, 60);
+    }
+    to{
+        color: rgb(0, 102, 179);
+    }
+    
+}
+.dropdown-content-donors li a:hover {
+    background-color: rgb(153, 202, 60);
+    color: white;
+}
+.dropdown-content-donors li a:active{
+    background-color: rgb(0, 102, 179);
+}
+
+.dropdown-donors:hover .dropdown-content-donors {
+    display: block;
+}
+
+.dropdown-donors:hover .dropbtn-donors {
+    background-color: #3e8e41;
+}
+
+/* For Body-Container Section */
+
+#body-container{
+    display: flex;
+    width: 100vw;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 83%;
+    height: 100%;
+}
+
+
+/* For Main Div */
+
+#main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#main .right{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 55px;
+}
+#main .right img{
+    position: relative;
+    left: 22px;
+}
+#main .left{
+    width: 50%;
+    height: 66%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+.primary-txt{
+    width: 95%;
+    height: 28%;
+    display: flex;
+    align-items: center;
+}
+.primary-txt h1{
+    font-size: 37px;
+    font-weight: 500;
+    line-height: 45px;
+}
+.primary-txt h1 span{
+    color: rgb(153, 202, 60);
+}
+.secondary-txt{
+    width: 95%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    letter-spacing: -0.3px;
+}
+.secondary-txt p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.secondary-txt p span{
+    color: rgb(0, 102, 179);
+}
+.paragraph{
+    width: 95%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    letter-spacing: -0.3px;
+}
+.paragraph p{
+    font-size: 16px;
+}
+.butn-read{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.read-more-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 42px;
+    background-color: transparent;
+    border: 1px solid rgb(36, 36, 36);
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transform: scale(1);
+    transition: 0.2s;
+}
+.read-more-btn:active{
+    transform: scale(0.8);
+    background-color: rgb(41, 40, 40);
+    color: white;
+}
+.read-more-btn p{
+    font-size: 12px;
+    font-family: 'poppins', sans-serif;
+}
+.read-more-btn span{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+
+

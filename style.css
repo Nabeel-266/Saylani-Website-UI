@@ -21,7 +21,7 @@ header{
     align-items: center;
     box-shadow: 0px 0px 4px rgb(170, 169, 169);
     position: fixed;
-    z-index: 1;
+    z-index: 10;
 }
 
 /* For HEAD DIV */
@@ -80,8 +80,9 @@ header{
 /* For NAV */
 
 nav{
-    width: 83%;
+    width: 82%;
     height: 74%;
+    margin-right: 10px;
 }
 #navbar{
     display: flex;
@@ -999,7 +1000,7 @@ ul li a{
 #body-container{
     display: flex;
     width: 100vw;
-    height: 1000px;
+    height: 2000px;
     justify-content: center;
     align-items: center;
 }
@@ -1008,7 +1009,7 @@ ul li a{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 83%;
+    width: 82%;
     height: 100%;
 }
 
@@ -1119,6 +1120,366 @@ ul li a{
     font-weight: 600;
 }
 
+/* For Help US Div */
 
+#help-us{
+    width: 100%;
+    height: 182px;
+    background-color: rgba(160, 228, 36, 0.2);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 25px;
+    display: flex;
+}
 
+.helping-txt{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-direction: column;
+}
+.helping-txt h2{
+    font-size: 31px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    line-height: 41px;
+    position: relative;
+    top: -12px;
+}
+.helping-txt p{
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(13, 109, 183);
+}
+.helping-options{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+}
+.electricity-bill{
+    width: 250px;
+    height: 60px;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    transition: 0.4s;
+    transform: scale(1);
+    position: relative;
+    z-index: 1;
+}
+.electricity-bill:hover{
+    transform: scale(1.1);
+}
+.flood-relief{
+    width: 130px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    transition: 0.4s;
+    transform: scale(1);
+    position: relative;
+    z-index: 2;
+}
+.flood-relief:hover{
+    transform: scale(1.1);
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+.winter{
+    width: 240px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    transition: 0.4s;
+    transform: scale(1);
+    position: relative;
+    z-index: 3;
+}
+.winter:hover{
+    transform: scale(1.1);
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+.food{
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    transition: 0.4s;
+    transform: scale(1);
+    position: relative;
+    z-index: 4;
+}
+.food:hover{
+    transform: scale(1.1);
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+.donate{
+    width: 130px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgb(153, 202, 60);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    transition: 0.4s;
+    transform: scale(1);
+    position: relative;
+    z-index: 5;
+}
+.donate:hover{
+    transform: scale(1.1);
+}
+
+/* For Share Blanket Image */
+
+#share-blanket{
+    width: 100%;
+    height: 540px;
+    margin-top: 20px;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+/* For What We Are Doing Div */
+
+#wt-v-r-do{
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.heading{
+    width: 100%;
+    height: 20%;
+}
+.heading h1{
+    font-size: 31px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    text-align: center;
+}
+.values{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.welfare{
+    width: 165px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 8px;
+    background-color: rgba(160, 228, 36, 0.2);
+    transition: 0.2s;
+    transform: scale(1);
+}
+.welfare:hover{
+    transform: scale(1.1);
+}
+.welfare:active{
+    transform: scale(0.9);
+}
+.welfare img{
+    width: 67px;
+    height: 73px;
+}
+.welfare p{
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: -0.7px;
+}
+
+.medical{
+    width: 165px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 8px;
+    background-color: rgba(160, 228, 36, 0.2);
+    transition: 0.2s;
+    transform: scale(1);
+}
+.medical:hover{
+    transform: scale(1.1);
+}
+.medical:active{
+    transform: scale(0.9);
+}
+.medical img{
+    width: 60px;
+    height: 70px;
+}
+.medical p{
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: -0.7px;
+}
+
+.online-sadqah{
+    width: 165px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 8px;
+    background-color: rgba(160, 228, 36, 0.2);
+    transition: 0.2s;
+    transform: scale(1);
+}
+.online-sadqah:hover{
+    transform: scale(1.1);
+}
+.online-sadqah:active{
+    transform: scale(0.9);
+}
+.online-sadqah img{
+    width: 41px;
+    height: 70px;
+}
+.online-sadqah p{
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: -0.7px;
+}
+
+.RO-Plant{
+    width: 165px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 8px;
+    background-color: rgba(160, 228, 36, 0.2);
+    transition: 0.2s;
+    transform: scale(1);
+}
+.RO-Plant:hover{
+    transform: scale(1.1);
+}
+.RO-Plant:active{
+    transform: scale(0.9);
+}
+.RO-Plant img{
+    width: 65px;
+    height: 70px;
+}
+.RO-Plant p{
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: -0.7px;
+}
+
+.education{
+    width: 165px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 8px;
+    background-color: rgba(160, 228, 36, 0.2);
+    transition: 0.2s;
+    transform: scale(1);
+}
+.education:hover{
+    transform: scale(1.1);
+}
+.education:active{
+    transform: scale(0.9);
+}
+.education img{
+    width: 75px;
+    height: 65px;
+}
+.education p{
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: -0.7px;
+}
+
+.food-01{
+    width: 165px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 8px;
+    background-color: rgba(160, 228, 36, 0.2);
+    transition: 0.2s;
+    transform: scale(1);
+}
+.food-01:hover{
+    transform: scale(1.1);
+}
+.food-01:active{
+    transform: scale(0.9);
+}
+.food-01 img{
+    width: 72px;
+    height: 65px;
+}
+.food-01 p{
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: -0.7px;
+}
 

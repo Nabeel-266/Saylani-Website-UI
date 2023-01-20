@@ -155,7 +155,7 @@ ul li a{
     color: rgb(0, 102, 179);
 }
 .home a:hover{
-    border-bottom: 3px solid rgb(153, 202, 60);
+    border-bottom: 3px solid #8dc63f;
 }
 
 
@@ -167,7 +167,7 @@ ul li a{
     height: 30px;
 }
 .drop-btn-about:hover{
-    border-bottom: 3px solid rgb(153, 202, 60);
+    border-bottom: 3px solid #8dc63f;
 }
 
 .dropdown-content-about {
@@ -197,7 +197,7 @@ ul li a{
     width: 100%;
 }
 .dropdown-content-about li a:hover {
-    background-color: rgb(153, 202, 60);
+    background-color: #8dc63f;
     color: white;
 }
 .dropdown-content-about li a:active{
@@ -221,7 +221,7 @@ ul li a{
     top: 3px;
 }
 .drop-btn-services:hover{
-    border-bottom: 3px solid rgb(153, 202, 60);
+    border-bottom: 3px solid #8dc63f;
 }
 .dropdown-content-services {
     display: none;
@@ -300,7 +300,7 @@ ul li a{
     width: 100%;
 }
 .dropdown-content-health li a:hover {
-    background-color: rgb(153, 202, 60);
+    background-color: #8dc63f;
     color: white;
 }
 .dropdown-content-health li a:active{
@@ -348,7 +348,7 @@ ul li a{
     float: right;
 }
 .dropdown-content-education  li:first-child a:hover {
-    background-color: rgb(153, 202, 60);
+    background-color: #8dc63f;
     color: white;
 }
 .dropdown-content-education  li:first-child a:active {
@@ -399,7 +399,7 @@ ul li a{
     width: 100%;
 }
 .dropdown-content-training li a:hover {
-    background-color: rgb(153, 202, 60);
+    background-color: #8dc63f;
     color: white;
 }
 .dropdown-content-training li a:active{
@@ -442,7 +442,7 @@ ul li a{
     width: 100%;
 }
 .dropdown-content-technical li a:hover {
-    background-color: rgb(153, 202, 60);
+    background-color: #8dc63f;
     color: white;
 }
 .dropdown-content-technical li a:active{
@@ -485,7 +485,7 @@ ul li a{
     width: 100%;
 }
 .dropdown-content-islamic li a:hover {
-    background-color: rgb(153, 202, 60);
+    background-color: #8dc63f;
     color: white;
 }
 .dropdown-content-islamic li a:active{
@@ -528,7 +528,7 @@ ul li a{
     width: 100%;
 }
 .dropdown-content-accounting li a:hover {
-    background-color: rgb(153, 202, 60);
+    background-color: #8dc63f;
     color: white;
 }
 .dropdown-content-accounting li a:active{
@@ -579,7 +579,7 @@ ul li a{
     float: right;
 }
 .dropdown-content-food li a:hover  {
-    background-color: rgb(153, 202, 60);
+    background-color: #8dc63f;
     color: white;
 }
 .dropdown-content-food li a:active{
@@ -628,7 +628,7 @@ ul li a{
     float: right;
 }
 .dropdown-content-sadiqah li a:hover  {
-    background-color: rgb(153, 202, 60);
+    background-color: #8dc63f;
     color: white;
 }
 .dropdown-content-sadiqah li a:active{
@@ -677,7 +677,7 @@ ul li a{
     float: right;
 }
 .dropdown-content-welfare li a:hover  {
-    background-color: rgb(153, 202, 60);
+    background-color: #8dc63f;
     color: white;
 }
 .dropdown-content-welfare li a:active{
@@ -726,7 +726,7 @@ ul li a{
     float: right;
 }
 .dropdown-content-disaster li a:hover  {
-    background-color: rgb(153, 202, 60);
+    background-color: #8dc63f;
     color: white;
 }
 .dropdown-content-disaster li a:active{
@@ -775,7 +775,7 @@ ul li a{
     float: right;
 }
 .dropdown-content-ehsaas li a:hover  {
-    background-color: rgb(153, 202, 60);
+    background-color: #8dc63f;
     color: white;
 }
 .dropdown-content-ehsaas li a:active{
@@ -797,7 +797,7 @@ ul li a{
     height: 30px;
 }
 .drop-btn-media:hover{
-    border-bottom: 3px solid rgb(153, 202, 60);
+    border-bottom: 3px solid #8dc63f;
 }
 
 .dropdown-content-media {
@@ -827,7 +827,7 @@ ul li a{
     width: 100%;
 }
 .dropdown-content-media li a:hover {
-    background-color: rgb(153, 202, 60);
+    background-color: #8dc63f;
     color: white;
 }
 .dropdown-content-media li a:active{
@@ -852,7 +852,7 @@ ul li a{
     color: rgb(60, 60, 60);
 }
 .news a:hover{
-    border-bottom: 3px solid rgb(153, 202, 60);
+    border-bottom: 3px solid #8dc63f;
 }
 
 /* For Contact US Options */
@@ -863,7 +863,7 @@ ul li a{
     height: 30px;
 }
 .drop-btn-contact:hover{
-    border-bottom: 3px solid rgb(153, 202, 60);
+    border-bottom: 3px solid #8dc63f;
 }
 
 .dropdown-content-contact {
@@ -893,7 +893,7 @@ ul li a{
     width: 100%;
 }
 .dropdown-content-contact li a:hover {
-    background-color: rgb(153, 202, 60);
+    background-color: #8dc63f;
     color: white;
 }
 .dropdown-content-contact li a:active{
@@ -918,7 +918,7 @@ ul li a{
     color: rgb(60, 60, 60);
 }
 .bank a:hover{
-    border-bottom: 3px solid rgb(153, 202, 60);
+    border-bottom: 3px solid #8dc63f;
 }
 
 /* For Overseas Donors Options */
@@ -936,12 +936,12 @@ ul li a{
         color: rgb(0, 102, 179);
     }
     to{
-        color: rgb(153, 202, 60);
+        color: #8dc63f;
     }
     
 }
 .drop-btn-donors:hover{
-    border-bottom: 3px solid rgb(153, 202, 60);
+    border-bottom: 3px solid #8dc63f;
 }
 
 .dropdown-content-donors {
@@ -972,7 +972,7 @@ ul li a{
 }
 @keyframes color {
     from{
-        color: rgb(153, 202, 60);
+        color: #8dc63f;
     }
     to{
         color: rgb(0, 102, 179);
@@ -980,7 +980,7 @@ ul li a{
     
 }
 .dropdown-content-donors li a:hover {
-    background-color: rgb(153, 202, 60);
+    background-color: #8dc63f;
     color: white;
 }
 .dropdown-content-donors li a:active{
@@ -1000,7 +1000,7 @@ ul li a{
 #body-container{
     display: flex;
     width: 100vw;
-    height: 2000px;
+    height: 3000px;
     justify-content: center;
     align-items: center;
 }
@@ -1057,7 +1057,7 @@ ul li a{
     line-height: 45px;
 }
 .primary-txt h1 span{
-    color: rgb(153, 202, 60);
+    color: #8dc63f;
 }
 .secondary-txt{
     width: 95%;
@@ -1255,7 +1255,7 @@ ul li a{
     width: 130px;
     height: 60px;
     border-radius: 5px;
-    background-color: rgb(153, 202, 60);
+    background-color: #8dc63f;
     color: white;
     display: flex;
     justify-content: center;
@@ -1469,6 +1469,7 @@ ul li a{
 }
 .food-01:hover{
     transform: scale(1.1);
+
 }
 .food-01:active{
     transform: scale(0.9);
@@ -1483,3 +1484,180 @@ ul li a{
     letter-spacing: -0.7px;
 }
 
+/* For Cards Div */
+
+#cards{
+    width: 100%;
+    height: 310px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.crd-01{
+    width: 31.8%;
+    height: 100%;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+.crd-01 .card-01{
+    width: 100%;
+    height: 100%;
+    background: url('./Images/card-image-01.jpg'), rgb(100, 100, 100);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -30px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 7px;
+    transform: scale(1);
+    transition: 0.2s;
+}
+.crd-01 .card-01:hover{
+    transform: scale(1.05);
+    background: url('./Images/card-image-01.jpg'), rgb(131, 131, 131);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -30px;
+}
+.crd-01 .card-01:hover .btn-01{
+    opacity: 0.8;
+}
+.card-01 h3{
+    font-size: 16.5px;
+    line-height: 23px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: -0.5px;
+}
+.card-01 .btn-01{
+    width: 100%;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #8dc63f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.card-01 .btn-01 h5{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.crd-02{
+    width: 31.8%;
+    height: 100%;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+.crd-02 .card-02{
+    width: 100%;
+    height: 100%;
+    background: url('./Images/card-image-02.jpg'), rgb(100, 100, 100);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -30px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 7px;
+    transform: scale(1);
+    transition: 0.2s;
+}
+.crd-02 .card-02:hover{
+    transform: scale(1.05);
+    background: url('./Images/card-image-02.jpg'), rgb(131, 131, 131);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -30px;
+}
+.crd-02 .card-02:hover .btn-02{
+    opacity: 0.8;
+}
+.card-02 h3{
+    font-size: 16.5px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: -0.5px;
+}
+.card-02 .btn-02{
+    width: 100%;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #8dc63f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-02 .btn-02 h5{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.crd-03{
+    width: 31.8%;
+    height: 100%;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+.crd-03 .card-03{
+    width: 100%;
+    height: 100%;
+    background: url('./Images/card-image-03.jpg'), rgb(100, 100, 100);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -30px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 7px;
+    transform: scale(1);
+    transition: 0.2s;
+}
+.crd-03 .card-03:hover{
+    transform: scale(1.05);
+    background: url('./Images/card-image-03.jpg'), rgb(131, 131, 131);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -30px;
+}
+.crd-03 .card-03:hover .btn-03{
+    opacity: 0.8;
+}
+.card-03 h3{
+    font-size: 16.5px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: -0.5px;
+}
+.card-03 .btn-03{
+    width: 100%;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #8dc63f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-03 .btn-03 h5{
+    font-size: 14px;
+    font-weight: 500;
+}

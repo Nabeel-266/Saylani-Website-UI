@@ -7,13 +7,13 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     font-family: 'poppins', sans-serif;
 }
 
 header{
     width: 100vw;
-    height: 16vh;
+    height: 16.5vh;
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@ header{
 
 #head{
     width: 100%;
-    height: 26%;
+    height: 27%;
     background-color: rgb(235, 235, 235,0.7);
     display: flex;
 }
@@ -45,20 +45,21 @@ header{
     color: rgba(0, 0, 0, 0.7);
 }
 .email a i{
-    font-size: 14px;
-    margin-top: 2.2px; 
+    font-size: 14.5px;
+    margin-top: 2.1px; 
 }
 .email a p{
     font-family: 'poppins', sans-serif;
-    font-size: 13px;
+    font-size: 12.5px;
     font-weight: 600; 
     margin-top: 2.5px; 
+    letter-spacing: -0.5px;
 }
 
 .number{
     display: flex;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 .number a{
     display: flex;
@@ -72,22 +73,23 @@ header{
 }
 .number a p{
     font-family: 'poppins', sans-serif;
-    font-size: 13px;
+    font-size: 12.5px;
     font-weight: 600;
     margin-top: 3px;
+    letter-spacing: -0.5px;
 }
 
 /* For NAV */
 
 nav{
     width: 82%;
-    height: 74%;
+    height: 73%;
     margin-right: 15px;
 }
 #navbar{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .saylani-logo{
     width: 200px;
@@ -108,13 +110,13 @@ ul{
     list-style: none;
 }
 ul li{
-    margin: 0 12px;
+    margin: 0 13px;
 }
 ul li a{
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14.5px;
     color: rgb(60, 60, 60);
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .butn-donate{
@@ -126,7 +128,7 @@ ul li a{
 .donate-now-btn{
     background-color: rgb(13, 109, 183);
     color: white;
-    padding: 10px 30px;
+    padding: 11px 30px;
     font-size: 12px;
     font-family: 'poppins', sans-serif;
     text-transform: uppercase;
@@ -137,6 +139,9 @@ ul li a{
 }
 .donate-now-btn:hover{
     transform: scale(1.1);
+}
+.donate-now-btn:active{
+    transform: scale(0.9);
 }
 
 /* For Navigations */
@@ -203,7 +208,7 @@ ul li a{
     margin: 0px -21px;
     padding: 8px 0px;
     border-radius: 5px;
-    translate: 0px 3px;
+    translate: 0px 2px;
 }
 .dropdown-content-about li{
     width: 100%;
@@ -266,7 +271,7 @@ ul li a{
     margin: 0px -21px;
     padding: 8px 0px;
     border-radius: 5px;
-    translate: 0px 3px;
+    translate: 0px 2px;
 }
 .dropdown-content-services li{
     width: 100%;
@@ -852,7 +857,7 @@ ul li a{
     margin: 0px -21px;
     padding: 8px 0px;
     border-radius: 5px;
-    translate: 0px 3px;
+    translate: 0px 2px;
 }
 .dropdown-content-media li{
     width: 100%;
@@ -934,7 +939,7 @@ ul li a{
     margin: 0px -21px;
     padding: 8px 0px;
     border-radius: 5px;
-    translate: 0px 3px;
+    translate: 0px 2px;
 }
 .dropdown-content-contact li{
     width: 100%;
@@ -1026,7 +1031,7 @@ ul li a{
     margin: 0px -21px;
     padding: 8px 0px;
     border-radius: 5px;
-    translate: 0px 3px;
+    translate: 0px 2px;
 }
 .dropdown-content-donors li{
     width: 100%;
@@ -1070,7 +1075,8 @@ ul li a{
 
 #body-container{
     display: flex;
-    width: 100vw;
+    justify-content: center;
+    width: 100%;
     height: 4000px;
 }
 #container{
@@ -1078,9 +1084,8 @@ ul li a{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 81.2%;
+    width: 82%;
     height: 100%;
-    margin: 0 auto;
 }
 
 
@@ -1154,6 +1159,7 @@ ul li a{
 }
 .paragraph p{
     font-size: 16px;
+    color: rgb(51, 51, 51);
 }
 .butn-read{
     display: flex;
@@ -1252,6 +1258,9 @@ ul li a{
 .electricity-bill:hover{
     transform: scale(1.1);
 }
+.electricity-bill:active{
+    transform: scale(0.9);
+}
 .flood-relief{
     width: 130px;
     height: 60px;
@@ -1272,6 +1281,11 @@ ul li a{
 }
 .flood-relief:hover{
     transform: scale(1.1);
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+.flood-relief:active{
+    transform: scale(0.9);
     background-color: rgb(59, 59, 59);
     color: white;
 }
@@ -1298,6 +1312,11 @@ ul li a{
     background-color: rgb(59, 59, 59);
     color: white;
 }
+.winter:active{
+    transform: scale(0.9);
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
 .food{
     width: 100px;
     height: 60px;
@@ -1321,6 +1340,11 @@ ul li a{
     background-color: rgb(59, 59, 59);
     color: white;
 }
+.food:active{
+    transform: scale(0.9);
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
 .donate{
     width: 130px;
     height: 60px;
@@ -1341,6 +1365,9 @@ ul li a{
 }
 .donate:hover{
     transform: scale(1.1);
+}
+.donate:active{
+    transform: scale(0.9);
 }
 
 /* For Share Blanket Image */
@@ -1561,7 +1588,7 @@ ul li a{
 #cards{
     width: 100%;
     height: 310px;
-    margin-top: 30px;
+    margin-top: 32px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -2026,8 +2053,11 @@ ul li a{
 /* For Testimonial Div */
 #testimonial{
     width: 100%;
-    height: 600px;
+    height: 590px;
     margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .testimonial-hd{
     width: 100%;
@@ -2047,4 +2077,197 @@ ul li a{
     font-size: 32px;
     font-weight: 500;
     letter-spacing: -1px;
+} 
+
+.testimonial-text{
+    width: 100%;
+    height: 470px;
+    background-color: #eeeeee;
+    display: flex;
+    padding: 45px 0px;
+    position: relative;
+    overflow: hidden;
+}
+.testimonial-box{
+    width: 100%;
+    position: absolute;
+    transition: 0.5s;
+}
+
+/* For Testimonial 01 */
+.testimonial-txt-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+    padding: 0px 45px;
+}
+.tstmnl-image-1{
+    width: 102px;
+    height: 102px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.tstmnl-image-1 img{
+    width: 105px;
+}
+.tstmnl-name-hd-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tstmnl-name-hd-1 h2{
+    font-size: 21.2px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: #0d6db7;
+    margin-top: 3px;
+}
+.tstmnl-name-hd-1 p{
+    font-size: 14.5px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    color: #303030;
+    margin-top: 6px;
+}
+.tstmnl-para-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tstmnl-para-1 p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 30px;
+    color: #303030;
+}
+.tstmnl-buttons-1{
+    width: 13%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.tstmnl-btn-left-1{
+    width: 51px;
+    height: 52px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.tstmnl-btn-left-1 i{
+    font-size: 28px;
+    color: #303030;
+}
+.tstmnl-btn-right-1{
+    width: 51px;
+    height: 52px;
+    background-color: #8dc63f;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.tstmnl-btn-right-1 i{
+    font-size: 28px;
+    color: #ffffff;
+}
+
+/* For Testimonial 02 */
+.testimonial-txt-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+    padding: 0px 45px;
+}
+.tstmnl-image-2{
+    width: 102px;
+    height: 102px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.tstmnl-image-2 img{
+    width: 105px;
+}
+.tstmnl-name-hd-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tstmnl-name-hd-2 h2{
+    font-size: 21.2px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: #0d6db7;
+    margin-top: 3px;
+}
+.tstmnl-name-hd-2 p{
+    font-size: 14.5px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    color: #303030;
+    margin-top: 6px;
+}
+.tstmnl-para-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tstmnl-para-2 p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 30px;
+    color: #303030;
+}
+.tstmnl-buttons-2{
+    width: 13%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.tstmnl-btn-left-2{
+    width: 51px;
+    height: 52px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.tstmnl-btn-left-2 i{
+    font-size: 28px;
+    color: #303030;
+}
+.tstmnl-btn-right-2{
+    width: 51px;
+    height: 52px;
+    background-color: #8dc63f;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.tstmnl-btn-right-2 i{
+    font-size: 28px;
+    color: #ffffff;
 }

@@ -257,11 +257,11 @@
                     <p>Quick Donation</p>
                 </div>
                 <div class="helping-options">
-                    <a href="" class="electricity-bill">Electricity bill support fund</a>
-                    <a href="" class="flood-relief">Flood Relief</a>
-                    <a href="" class="winter">Help the needy in winter</a>
-                    <a href="" class="food">Food</a>
-                    <a href="" class="donate">Donate</a>
+                    <a href="#" class="electricity-bill">Electricity bill support fund</a>
+                    <a href="#" class="flood-relief">Flood Relief</a>
+                    <a href="#" class="winter">Help the needy in winter</a>
+                    <a href="#" class="food">Food</a>
+                    <a href="#" class="donate">Donate</a>
                 </div>
             </div>
 
@@ -457,6 +457,54 @@
                     <h5>Our Testimonials</h5>
                     <h1>What They Say?</h1>
                 </div>
+
+                <div class="testimonial-text" id="testimonial_main">
+
+                    <!-- For Testimonial 01 -->
+                    <div class="testimonial-txt-1 testimonial-box" id="testimonial_01">
+                        <div class="tstmnl-image-1">
+                            <img src="./Images/arshad-wali.jpg" alt="arshad-wali-image">
+                        </div>
+                        <div class="tstmnl-name-hd-1">
+                            <h2>Arshad Wali Muhammad</h2>
+                            <p>(Group Director, Gerry’s Group)</p>
+                        </div>
+                        <div class="tstmnl-para-1">
+                            <p>Saylani Welfare Trust is a name that needs no introduction today. The journey this team embarked upon was made possible owing to their zeal, enthusiasm & commitment to the society and by the grace of Allah (SWT), it has become a name that we need and not just the one we want. I wish Saylani’s team all the success and blessing that they deserve for future, May God bless Saylani and ensure prosperity and happiness for our people, Ameen!</p>
+                        </div>
+                        <div class="tstmnl-buttons-1">
+                            <div class="tstmnl-btn-left-1">
+                                <i class="fa-solid fa-angle-left"></i>
+                            </div>
+                            <div class="tstmnl-btn-right-1" onclick="goNxt()">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- For Testimonial 02 -->
+                    <div class="testimonial-txt-2 testimonial-box" id="testimonial_02">
+                        <div class="tstmnl-image-2">
+                            <img src="./Images/asif-ismail.jpg" alt="arshad-wali-image">
+                        </div>
+                        <div class="tstmnl-name-hd-2">
+                            <h2>Asif Ismail</h2>
+                            <p>(C.O.O. & Director, Premier Cables Pvt. Ltd)</p>
+                        </div>
+                        <div class="tstmnl-para-2">
+                            <p>When we talk about serving humanity, no second thought occurs other than Saylani Welfare Trust. Saylani is doing a tremendous job in terms of everything they do for a troubled humanity. From offering food to the hungry to arranging jobs for jobless people, arranging marriages and dowry for orphaned girls, offering free medical facilities, and much more. We sincerely wish them success in their future endeavors and in raising their standards of serving mankind in a better and more professional way.</p>
+                        </div>
+                        <div class="tstmnl-buttons-2">
+                            <div class="tstmnl-btn-left-2" onclick="goPrev()">
+                                <i class="fa-solid fa-angle-left"></i>
+                            </div>
+                            <div class="tstmnl-btn-right-2">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
         </div>
@@ -473,6 +521,35 @@
             backSpeed: 50,
             loop: true
         })
+  
+
+        const slides = document.querySelectorAll('.testimonial-box');
+        let counter = 0;
+
+        slides.forEach(
+            (slide, index) => {
+                slide.style.left = `${index * 100}%`;
+            }
+        )
+
+        const slideTestimonial = () => {
+            slides.forEach(
+                (slide) => {
+                    slide.style.transform = `translateX(-${counter * 100}%)`;
+                }
+            )
+        }
+
+        const goPrev = () => {
+            counter--;
+            slideTestimonial()
+        }
+
+        const goNxt = () => {
+            counter++;
+            slideTestimonial()
+        }
+        
     </script>
 </body>
 </html>
